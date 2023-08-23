@@ -23,7 +23,7 @@ main {
     flex: 1 0 auto;
 }
 
-/* Navbar styling*/
+/* Navbar styling */
 nav {
     background: #000;
     height: 80px;
@@ -64,6 +64,8 @@ nav a:hover {
     border-bottom: 1px solid #ffffff;
 }
 
+
+/* Styling for the Burger Menu on large screen */
 .nav-toggle-label {
     font-size: 30px;
     color: white;
