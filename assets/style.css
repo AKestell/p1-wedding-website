@@ -13,12 +13,13 @@
 
 body {
     display: flex;
-        flex-direction: column;
-        font-family: 'Roboto', sans-serif;
-        min-height: 100vh;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
 }
 
 main {
+    /* Creates space in the Main section and pushes Footer down */
     flex: 1 0 auto;
 }
 
@@ -55,6 +56,10 @@ nav ul li a {
     font-size: 20px;
 }
 
+nav a:hover {
+    color: #BEADA6;
+}
+
 .active {
     border-bottom: 1px solid #ffffff;
 }
@@ -65,6 +70,7 @@ nav ul li a {
     float: right;
     line-height: 80px;
     margin-right: 40px;
+    display: none;
 }
 
 #nav-toggle {
