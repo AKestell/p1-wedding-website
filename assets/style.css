@@ -126,6 +126,14 @@ nav a:hover {
     margin-left: 30px;
 }
 
+#hero-section-2 {
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+    background: url(../assets/images/header-river-kilkenny-co-kilkenny.jpg) no-repeat center center;
+    background-size: cover;
+}
+
 
 /* Footer - styling taken from Love Running example project */
 
