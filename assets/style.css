@@ -86,7 +86,7 @@ nav a:hover {
     height: 800px;
     margin: 0 auto;
     background: url(../assets/images/img_4263.jpg) no-repeat center center;
-    background-size: 100%;
+    background-size: cover;
 }
 
 
@@ -111,9 +111,10 @@ nav a:hover {
 
 
 @media screen and (max-width: 1200px) {
-    #hero-section {
+   #hero-section {
         width: 100%;
         height: 600px;
+        background-size: cover;
     }
 }
 
@@ -131,6 +132,7 @@ nav a:hover {
     #hero-section {
         width: 100%;
         height: 400px;
+        background-size: cover;
     }
 
 }
@@ -141,7 +143,7 @@ nav a:hover {
 
     }
 
-    ul {
+    #navbar-items {
         position: fixed;
         width: 100%;
         height: 50vh;
@@ -184,6 +186,7 @@ nav a:hover {
     #hero-section {
         width: 100%;
         height: 400px;
+        background-size: cover;
     }
 
     label.home {
