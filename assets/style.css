@@ -126,12 +126,22 @@ nav a:hover {
     margin-left: 30px;
 }
 
+/* Hero image for Accomodation page */
+
 #hero-section-2 {
     width: 100%;
     height: 600px;
     margin: 0 auto;
     background: url(../assets/images/header-river-kilkenny-co-kilkenny.jpg) no-repeat center center;
     background-size: cover;
+}
+
+/* Table styling on Accomodation page */
+table {
+    border-collapse: collapse;
+    margin: 0;
+    width: 100%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .25);
 }
 
 
