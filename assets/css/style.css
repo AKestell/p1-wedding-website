@@ -169,6 +169,15 @@ table a {
 }
 
 
+/* Hero image for Contact page */
+#hero-section-3 {
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+    background: url(../images/lobsters.jpg) no-repeat center center;
+    background-size: cover;
+}
+
 /* Footer - styling taken from Love Running example project */
 
 #social-networks {
