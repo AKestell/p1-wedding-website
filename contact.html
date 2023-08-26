@@ -29,14 +29,16 @@
         <div id="image-home"></div>
       </section>
 
+      <!-- Contact Form section - Code taken from Love Running project -->
       <section id="signup">
         <form
           id="contact-form"
           method="post"
           action="https://formdump.codeinstitute.net"
         >
-          <h2>Any questions?</h2>
+          <h2>RSVP</h2>
           <label for="first_name">First Name</label>
+          <br />
           <input
             type="text"
             name="first_name"
@@ -46,6 +48,7 @@
           />
           <br />
           <label for="last_name">Last Name</label>
+          <br />
           <input
             type="text"
             name="last_name"
@@ -55,6 +58,7 @@
           />
           <br />
           <label for="email_address">Email Address</label>
+          <br />
           <input
             type="email"
             name="email_address"
@@ -63,6 +67,17 @@
             required
           />
           <br />
+          <div class="radio-buttons">
+            <div>
+                <label for="yes">Yes</label>
+                <input type="radio" name="rsvp-response" id="yes" value="yes" required>
+            </div>
+            <div>
+                <label for="no">No</label>
+                <input type="radio" name="rsvp-response" id="no" value="no" required>
+            </div>
+          </div>
+          
           <button type="submit" class="join-button">Ask Away!</button>
         </form>
       </section>
