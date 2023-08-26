@@ -106,7 +106,7 @@ nav a:hover {
 }
 
 #set-image {
-    width: 99%;
+    width: 100%;
     height: auto;
 }
 
@@ -274,6 +274,16 @@ table a {
         left: 0;
     }
 
+    .right-side {
+        width: 100%;
+        padding: 0;
+    }
+
+    .left-side {
+        width: 100%;
+        padding: 0;
+    }
+
     #social-networks {
         text-align: center;
         padding: 20px 0;
@@ -286,6 +296,23 @@ table a {
         font-size: 160%;
         padding: 5%;
         color: #000;
+    }
+
+    .info-section {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #about-info {
+        width: 100%;
+        padding: 0;
+    }
+
+    #location-info {
+        flex-direction: column-reverse;
+        width: 100%;
+        padding: 0;
     }
 }
 
