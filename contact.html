@@ -69,18 +69,40 @@
           <br />
           <div class="radio-buttons">
             <div>
-                <label for="yes">Yes</label>
-                <input type="radio" name="rsvp-response" id="yes" value="yes" required>
+              <label for="yes">Yes</label>
+              <input
+                type="radio"
+                name="rsvp-response"
+                id="yes"
+                value="yes"
+                required
+              />
             </div>
             <div>
-                <label for="no">No</label>
-                <input type="radio" name="rsvp-response" id="no" value="no" required>
+              <label for="no">No</label>
+              <input
+                type="radio"
+                name="rsvp-response"
+                id="no"
+                value="no"
+                required
+              />
             </div>
           </div>
-          
+
+          <label for="additional-comments"></label>
+          <textarea
+            name="additional-comments"
+            id="comments"
+            class="text-input"
+            cols="30"
+            rows="10"
+            placeholder="Ask your questions here!"
+          ></textarea>
+
           <button type="submit" class="join-button">Ask Away!</button>
         </form>
-      </section>
+
     </main>
 
     <!-- Footer - code taken from Love Running example project -->
