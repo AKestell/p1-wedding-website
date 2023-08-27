@@ -3,372 +3,406 @@
 
 /* General styling to remove browser defaults */
 * {
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    font-family: "Roboto", sans-serif;
-    min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  min-height: 100vh;
 }
 
 main {
-    /* Creates space in the Main section and pushes Footer down */
-    flex: 1 0 auto;
+  /* Creates space in the Main section and pushes Footer down */
+  flex: 1 0 auto;
 }
 
 /* Navbar styling */
 nav {
-    background: #000;
-    height: 80px;
-    width: 100%;
+  background: #000;
+  height: 80px;
+  width: 100%;
 
-    text-transform: uppercase;
-    position: fixed;
+  text-transform: uppercase;
+  position: fixed;
 }
 
 label.home {
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+
+label.home a {
     color: white;
-    font-size: 35px;
-    line-height: 80px;
-    padding: 0 100px;
-    font-weight: bold;
 }
 
 nav ul {
-    float: right;
-    margin-right: 80px;
+  float: right;
+  margin-right: 80px;
 }
 
 nav ul li {
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 5px;
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
 }
 
 nav ul li a {
-    color: white;
-    font-size: 20px;
+  color: white;
+  font-size: 20px;
 }
 
 nav a:hover {
-    color: #beada6;
+  color: #beada6;
 }
 
 .active {
-    border-bottom: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
 }
 
 /* Styling for the Burger Menu on large screen */
 .nav-toggle-label {
-    font-size: 30px;
-    color: white;
-    float: right;
-    line-height: 80px;
-    margin-right: 40px;
-    display: none;
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  display: none;
 }
 
 #nav-toggle {
-    display: none;
+  display: none;
 }
 
 /* Hero Section Styling */
 #hero-section {
-    width: 100%;
-    height: 800px;
-    margin: 0 auto;
-    background: url(../images/img_4263.jpg) no-repeat center center;
-    background-size: cover;
+  width: 100%;
+  height: 800px;
+  margin: 0 auto;
+  background: url(../images/img_4263.jpg) no-repeat center center;
+  background-size: cover;
 }
 
+/* Styiling for the Information Section on Homepage */
 .info-section {
-    width: 100%;
-    display: flex;
-    flex-flow: row;
-    justify-content: space-between;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info-section h2 {
+  background-color: #beaf74;
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.info-section hr {
+  border: 2px solid #2fabbe;
+  border-radius: 2px;
+  margin-bottom: 1em;
 }
 
 .left-side {
-    width: 50%;
-    padding: 3em;
+  width: 50%;
+  padding: 3em;
 }
 
 .right-side {
-    width: 50%;
-    padding: 3em;
+  width: 50%;
+  padding: 3em;
 }
 
 #set-image {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 #hotel-image {
-    width: 99%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 /* Hero image for Accomodation page */
 
 #hero-section-2 {
-    width: 100%;
-    height: 600px;
-    margin: 0 auto;
-    background: url(../images/header-river-kilkenny-co-kilkenny.jpg) no-repeat center center;
-    background-size: cover;
+  width: 100%;
+  height: 600px;
+  margin: 0 auto;
+  background: url(../images/header-river-kilkenny-co-kilkenny.jpg) no-repeat
+    center center;
+  background-size: cover;
 }
 
 /* Table styling on Accomodation page */
 table {
-    border-collapse: collapse;
-    margin: 0;
-    width: 100%;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  border-collapse: collapse;
+  margin: 0;
+  width: 100%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
 }
 
 thead tr {
-    background-color: #beaf74;
+  background-color: #beaf74;
 }
 
 thead th {
-    color: #ffffff;
-    font-size: large;
+  color: #ffffff;
+  font-size: large;
 }
 
 tbody tr:nth-child(even) {
-    background-color: #2fabbe;
+  background-color: #2fabbe;
 }
 
 table th,
 table td {
-    font-size: 16px;
-    padding: 20px;
+  font-size: 16px;
+  padding: 20px;
 }
 
 table a {
-    color: black;
-    text-decoration: underline;
+  color: black;
+  text-decoration: underline;
 }
 
 /* Hero image for Contact page */
 #hero-section-3 {
-    width: 100%;
-    height: 600px;
-    margin: 0 auto;
-    background: url(../images/lobsters.jpg) no-repeat center center;
-    background-size: cover;
+  width: 100%;
+  height: 600px;
+  margin: 0 auto;
+  background: url(../images/lobsters.jpg) no-repeat center center;
+  background-size: cover;
 }
 
 #signup {
-    background-color: rgba(47, 171, 190, 0.25);
-    text-transform: uppercase;
-    width: 100%;
-    padding: 30px;
-    border: 3px solid #beaf74;
+  background-color: rgba(47, 171, 190, 0.25);
+  text-transform: uppercase;
+  width: 100%;
+  padding: 30px;
+  border: 3px solid #beaf74;
 }
 
 #contact-form {
-    width: 90%;
+  width: 90%;
+}
+
+#signup h2 {
+    background-color: #beaf74;
+    color: white;
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: center;
+    
 }
 
 .text-input {
-    width: 100%;
-    height: 30px;
-    margin: 0 0 10px 0;
-    border: 1px solid #3a3a3a;
-    border-radius: 5px;
+  width: 100%;
+  height: 30px;
+  margin: 0 0 10px 0;
+  border: 1px solid #3a3a3a;
+  border-radius: 5px;
 }
 
 .radio-buttons {
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
 }
 
 #comments {
-    height: 90px;
+  height: 90px;
 }
 
-.bridies-image img {
-    width: 50%;
-    display: flex;
-    justify-content: center;
+.rsvp-button {
+    background-color: #beaf74;
+    padding: 1em;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    border-radius: 2px;
+    
 }
+
 
 /* Footer - styling taken from Love Running example project */
 
 #social-networks {
-    text-align: center;
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
+  text-align: center;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
 }
 
 #social-networks i {
-    font-size: 160%;
-    padding: 5%;
-    color: #000;
+  font-size: 160%;
+  padding: 5%;
+  color: #000;
 }
 
 /* Media queries for different screen sizes */
 
 @media screen and (max-width: 1200px) {
-    #hero-section {
-        width: 100%;
-        height: 600px;
-        background-size: cover;
-    }
+  #hero-section {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+  }
 }
 
 @media screen and (max-width: 952px) {
-    label.logo {
-        font-size: 30px;
-        padding-left: 50px;
-    }
+  label.logo {
+    font-size: 30px;
+    padding-left: 50px;
+  }
 
-    nav ul li a {
-        font-size: 16px;
-    }
+  nav ul li a {
+    font-size: 16px;
+  }
 
-    #hero-section {
-        width: 100%;
-        height: 400px;
-        background-size: cover;
-    }
+  #hero-section {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .nav-toggle-label {
-        display: block;
-    }
+  .nav-toggle-label {
+    display: block;
+  }
 
-    #navbar-items {
-        position: fixed;
-        width: 100%;
-        height: 50vh;
-        background: #beaf74;
-        top: 80px;
-        left: -100%;
-        text-align: center;
-    }
+  #navbar-items {
+    position: fixed;
+    width: 100%;
+    height: 50vh;
+    background: #beaf74;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+  }
 
-    nav ul li {
-        display: block;
-        margin: 50px 0;
-        line-height: 30px;
-    }
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
 
-    nav ul li a {
-        font-size: 30px;
-    }
+  nav ul li a {
+    font-size: 30px;
+  }
 
-    #nav-toggle:checked~ul {
-        left: 0;
-    }
+  #nav-toggle:checked ~ ul {
+    left: 0;
+  }
 
-    .info-section {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
+  .info-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
 
-    #about-info {
-        width: 100%;
-        padding: 0;
-    }
+  #about-info {
+    width: 100%;
+    padding: 0;
+  }
 
-    #location-info {
-        flex-direction: column-reverse;
-        width: 100%;
-        padding: 0;
-    }
+  #location-info {
+    flex-direction: column-reverse;
+    width: 100%;
+    padding: 0;
+  }
 
-    .right-side {
-        width: 100%;
-        padding: 0;
-    }
+  .right-side {
+    width: 100%;
+    padding: 0;
+  }
 
-    .left-side {
-        width: 100%;
-        padding: 0;
-    }
+  .left-side {
+    width: 100%;
+    padding: 0;
+  }
 
+  #hero-section-2 {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+  }
 
-    #hero-section-2 {
-        width: 100%;
-        height: 400px;
-        background-size: cover;
-    }
+  table th,
+  table td {
+    font-size: 14px;
+    padding: 12px;
+  }
 
-    table th,
-    table td {
-        font-size: 14px;
-        padding: 12px;
-    }
+  #social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+  }
 
-    #social-networks {
-        text-align: center;
-        padding: 20px 0;
-        display: flex;
-        justify-content: space-evenly;
-        list-style-type: none;
-    }
+  #social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #000;
+  }
 
-    #social-networks i {
-        font-size: 160%;
-        padding: 5%;
-        color: #000;
-    }
+  .info-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
 
-    .info-section {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
+  #about-info {
+    width: 100%;
+    padding: 0;
+  }
 
-    #about-info {
-        width: 100%;
-        padding: 0;
-    }
-
-    #location-info {
-        flex-direction: column-reverse;
-        width: 100%;
-        padding: 0;
-    }
+  #location-info {
+    flex-direction: column-reverse;
+    width: 100%;
+    padding: 0;
+  }
 }
 
 @media screen and (max-width: 422px) {
-    #hero-section {
-        width: 100%;
-        height: 400px;
-        background-size: cover;
-    }
+  #hero-section {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+  }
 
-    label.home {
-        padding: 0 50px;
-        font-size: 20px;
-    }
+  label.home {
+    padding: 0 50px;
+    font-size: 20px;
+  }
 
-    table th,
-    table td {
-        font-size: 12px;
-        padding: 8px;
-    }
+  table th,
+  table td {
+    font-size: 12px;
+    padding: 8px;
+  }
 }
 
 @media screen and (max-width: 328px) {
-    table th,
-    table td {
-        font-size: 10px;
-        padding: 2px;
-    }
+  table th,
+  table td {
+    font-size: 10px;
+    padding: 2px;
+  }
 }
