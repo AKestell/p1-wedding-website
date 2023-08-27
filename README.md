@@ -1,39 +1,94 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Adam & Lauren's Wedding
+A webite providing information for our wedding happening in August 2024. 
 
-Welcome,
+The goal of this website is to provide information to guests about the wedding itself and to help them with getting accomodation in the Kilkenny. 
+Thereis also a section to RSVP to the wedding that for now is the custom form dump but will be expanded upon to be operational in the coming weeks. 
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Site view across devices](assets/images-readme/devices-layout.PNG)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **July 26th, 2023**
+This website is curently live and the link to view it can be found here [HERE!](https://akestell.github.io/p1-wedding-website/)
 
-## Codeanywhere Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+## Table of Contents
 
-`python3 -m http.server`
+- [Adam \& Lauren's Wedding](#adam--laurens-wedding)
+  - [Table of Contents](#table-of-contents)
+  - [UX](#ux)
+    - [Site Purpose:](#site-purpose)
+    - [Site Goal:](#site-goal)
+    - [Audience:](#audience)
+    - [Communication](#communication)
+    - [Current User Goals](#current-user-goals)
+    - [New User Goals](#new-user-goals)
+  - [Design](#design)
+    - [Color Scheme](#color-scheme)
+    - [Typography](#typography)
+    - [Imagery](#imagery)
+  - [Features](#features)
+    - [Existing Features](#existing-features)
+      - [Navigation Bar:](#navigation-bar)
+      - [Home Page:](#home-page)
+      - [Accomodation Page:](#accomodation-page)
+      - [Contact Page:](#contact-page)
+      - [Socail Links:](#socail-links)
+    - [Future Features](#future-features)
+  - [Testing](#testing)
+    - [Valicator Testing](#valicator-testing)
+  - [Technologies Used](#technologies-used)
+    - [Frameworks, Libraries \& Programs Used](#frameworks-libraries--programs-used)
+  - [Deployment](#deployment)
+  - [Credits](#credits)
+    - [Content](#content)
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+## UX
 
-`http_server`
+### Site Purpose:
+To give information to guests
+### Site Goal:
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Audience:
+ 
+### Communication
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+### Current User Goals
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### New User Goals
 
-To log into the Heroku toolbelt CLI:
+## Design
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### Color Scheme
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### Typography
 
----
+### Imagery
 
-Happy coding!
+## Features
+
+### Existing Features
+#### Navigation Bar:
+
+#### Home Page:
+
+#### Accomodation Page:
+
+#### Contact Page:
+
+#### Socail Links:
+
+
+### Future Features
+
+
+## Testing
+
+### Valicator Testing
+
+## Technologies Used
+### Frameworks, Libraries & Programs Used
+
+## Deployment
+
+## Credits
+
+### Content
