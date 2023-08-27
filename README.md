@@ -128,6 +128,9 @@ but after testing a couple of things and speaking with one of the tutors, I was 
 - Lighthouse test returned a very high rating for the site. In particualr a high Accessability Score
   ![Accessavility Score](assets/images-readme/lighthouse-score.PNG)
 
+- Tested on Chrome, Firefox & Safari and worked without issues
+- Links to external pages all open to required location. 
+
 ## Technologies Used
 ### Main languages used
 - HTML 5
@@ -152,3 +155,8 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 ## Credits
 
 ### Content
+- First off, this layout of the walkthrough was taken from the [La Lucha](https://github.com/CluelessBiker/project1-la-lucha/blob/main/README.md) ReadME file. The content I added to reflect my own project.
+- The initial layout and set up, favicon code, hero section and social media icons in the footer of the websites was taken from the Love Running walkthrough project. 
+- I used the following video to help style the navbar - [HERE](https://www.youtube.com/watch?v=oLgtucwjVII). Some if the styling was used and I added my own on top of that. 
+- Used the following project for inspiration and some code for the Info section on the homepage as well as parts of the contact Form - [O'Learys Irish Pub](https://artcuddy.github.io/Project1-olearys/contact.html)
+- For the table on the Accomodation Page, I followed some of the steps in the following video - [HERE](https://www.youtube.com/watch?v=kbqkIjRZGIE)
