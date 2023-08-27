@@ -91,6 +91,10 @@ nav a:hover {
   background-size: cover;
 }
 
+#image-home h2 {
+    display: none;
+}
+
 /* Styiling for the Information Section on Homepage */
 .info-section {
   width: 100%;
@@ -221,7 +225,7 @@ table a {
   margin-bottom: 10px;
 }
 
-#comments {
+#additional-comments {
   height: 90px;
 }
 

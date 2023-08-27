@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wedding</title>
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
   </head>
 
   <body>
     <!-- Navbar styling -->
     <nav>
       <!-- Checkbox and Burger menu icon from Love Running project -->
-      <input type="checkbox" id="nav-toggle" name="nav-toggle" />
+      <input type="checkbox" id="nav-toggle" name="nav-toggle">
       <label for="nav-toggle" class="nav-toggle-label">
         <i class="fa-solid fa-bars"></i>
       </label>
@@ -26,122 +26,73 @@
 
     <main>
       <section id="hero-section-3">
-        <div id="image-home"></div>
+        <div id="image-home">
+            <!-- Heading added as validator said it was required -->
+            <h2>Heading</h2>
+        </div>
       </section>
 
       <!-- Contact Form section - Code taken from Love Running project -->
       <section id="signup">
-        <form
-          id="contact-form"
-          method="post"
-          action="https://formdump.codeinstitute.net"
-        >
+        <form id="contact-form" method="post" action="https://formdump.codeinstitute.net">
           <h2>RSVP</h2>
           <label for="first_name">First Name</label>
-          <br />
-          <input
-            type="text"
-            name="first_name"
-            id="first_name"
-            class="text-input"
-            required
-          />
-          <br />
+          <br>
+          <input type="text" name="first_name" id="first_name"
+                 class="text-input" required>
+          <br>
           <label for="last_name">Last Name</label>
-          <br />
-          <input
-            type="text"
-            name="last_name"
-            id="last_name"
-            class="text-input"
-            required
-          />
-          <br />
+          <br>
+          <input type="text" name="last_name" id="last_name"
+                 class="text-input" required>
+          <br>
           <label for="email_address">Email Address</label>
-          <br />
-          <input
-            type="email"
-            name="email_address"
-            id="email_address"
-            class="text-input"
-            required
-          />
-          <br />
+          <br>
+          <input type="email" name="email_address" id="email_address"
+                 class="text-input" required>
+          <br>
           <div class="radio-buttons">
             <div>
               <label for="yes">Yes</label>
-              <input
-                type="radio"
-                name="rsvp-response"
-                id="yes"
-                value="yes"
-                required
-              />
+              <input type="radio" name="rsvp-response" id="yes"
+                     value="yes" required>
             </div>
             <div>
               <label for="no">No</label>
-              <input
-                type="radio"
-                name="rsvp-response"
-                id="no"
-                value="no"
-                required
-              />
+              <input type="radio" name="rsvp-response" id="no"
+                     value="no" required>
             </div>
           </div>
 
           <label for="additional-comments"></label>
-          <textarea
-            name="additional-comments"
-            id="comments"
-            class="text-input"
-            cols="30"
-            rows="10"
-            placeholder="Ask your questions here!"
-          ></textarea>
+          <textarea name="additional-comments" id="additional-comments" class="text-input"
+                    cols="30" rows="10" placeholder="Ask your questions here!">
+          </textarea>
 
           <button type="submit" class="rsvp-button">Ask Away!</button>
         </form>
-
+        </section>
     </main>
 
     <!-- Footer - code taken from Love Running example project -->
     <footer>
-      <ul id="social-networks">
-        <li>
-          <a
-            href="https://www.facebook.com/langtonhousehotel/"
-            target="_blank"
-            rel="noopener"
-            aria-label="Visit our Facebook page (opens in a new tab)"
-            ><i class="fa-brands fa-facebook"></i
-          ></a>
-        </li>
-        <li>
-          <a
-            href="https://twitter.com/langtonskk"
-            target="_blank"
-            rel="noopener"
-            aria-label="Visit our Twitter page (opens in a new tab)"
-            ><i class="fa-brands fa-square-twitter"></i
-          ></a>
-        </li>
-        <li>
-          <a
-            href="https://www.instagram.com/langtonskilkenny/"
-            target="_blank"
-            rel="noopener"
-            aria-label="Visit our Instagram page (opens in a new tab)"
-            ><i class="fa-brands fa-instagram"></i
-          ></a>
-        </li>
-      </ul>
+        <ul id="social-networks">
+            <li>
+                <a href="https://www.facebook.com/langtonhousehotel/" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/langtonskk" target="_blank" rel="noopener"
+                    aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-square-twitter"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/langtonskilkenny/" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+        </ul>
     </footer>
-
+    
     <!-- Font Awesome Kit-->
-    <script
-      src="https://kit.fontawesome.com/6df7a1ed62.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://kit.fontawesome.com/6df7a1ed62.js" crossorigin="anonymous"></script>
   </body>
 </html>
