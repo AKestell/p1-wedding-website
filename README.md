@@ -35,6 +35,7 @@ This website is curently live and the link to view it can be found here [HERE!](
   - [Testing](#testing)
     - [Valicator Testing](#valicator-testing)
   - [Technologies Used](#technologies-used)
+    - [Main languages used](#main-languages-used)
     - [Frameworks, Libraries \& Programs Used](#frameworks-libraries--programs-used)
   - [Deployment](#deployment)
   - [Credits](#credits)
@@ -111,15 +112,42 @@ Create a custom landing page and database for guests to RSVP directly through th
 
 
 ## Testing
+Some issues with sizing on the Accomodatin page when moving to smaller screens. It turned out that the padding and text size were too big and were pushing the hero image out of it's placement. Was able to resolve by writing media queries for differnet size screens and reducing the sice of each to make the hero image fit. 
 
+Similar issue arised when style the hero image on the homepage in that the background image was set incorrectly. Initially it was set to 
+```
+background-size: 100%;
+```
+but after testing a couple of things and speaking with one of the tutors, I was able to come to the conculsion the it needed to be cover instead of 100%.
 
 ### Valicator Testing
-
+ - html files all went through the [W3C validator](https://validator.w3.org/) with no issues in them. 
+  ![W3C validator message](assets/images-readme/html-validator.PNG)
+- css files also passed all tests when ran through [Jigsaw validator](https://jigsaw.w3.org/css-validator/)
+  ![Jigsaw validator message](assets/images-readme/css-validator.PNG)
+- Lighthouse test returned a very high rating for the site. In particualr a high Accessability Score
+  ![Accessavility Score](assets/images-readme/lighthouse-score.PNG)
 
 ## Technologies Used
+### Main languages used
+- HTML 5
+- CSS 3
+
 ### Frameworks, Libraries & Programs Used
+- Google fonts - Used for the font family 'Roboto' which is used throughout the site.
+- Font Awesowe - Each of the social media icons in the footer where taken from there. 
+- GitHub - used to store repo for project submission
+- Codeanywhere - to create html and css files.
+- Icons8.com - Used to obtain the favicon at the top of the page.
+- Am I responsive - to make sure the project looked good on all screen sizes. 
+
 
 ## Deployment
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+- In the GitHub repository, navigate to the Settings tab
+- From the source section drop-down menu, select the Master Branch
+- Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+- The live link can be found [HERE](https://akestell.github.io/p1-wedding-website/index.html)
 
 ## Credits
 
