@@ -233,7 +233,7 @@ table a {
     color: white;
     font-weight: bold;
     border-radius: 2px;
-    
+
 }
 
 
@@ -334,6 +334,10 @@ table a {
   .left-side {
     width: 100%;
     padding: 0;
+  }
+  
+  .left-side p {
+    margin-bottom: 2em;
   }
 
   #hero-section-2 {
