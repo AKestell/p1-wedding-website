@@ -82,10 +82,9 @@
             </div>
           </div>
 
-          <label for="comments"></label>
-          <textarea name="comments" id="additional-comments" class="text-input"
-                    cols="30" rows="10" placeholder="Let us know any dietary requirments here! (No shame you only eat nuggets and chips)">
-          </textarea>
+          <label for="comments">Additional Comments</label>
+          <br>
+          <textarea name="comments" id="additional-comments" class="text-input" cols="30" rows="10" placeholder="Let us know any dietary requirments here! (No shame if you only eat nuggets and chips)"></textarea>
 
           <button type="submit" class="rsvp-button">RSVP</button>
         </form>
@@ -112,5 +111,14 @@
     
     <!-- Font Awesome Kit-->
     <script src="https://kit.fontawesome.com/6df7a1ed62.js" crossorigin="anonymous"></script>
+
+    <script>
+      document.getElementById('contact-form').addEventListener('submit', function () {
+          // Process form data (if needed)
+
+          // Redirect to success page
+          window.location.href = 'success.html';
+      });
+  </script>
   </body>
 </html>
