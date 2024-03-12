@@ -40,7 +40,7 @@
 
       <!-- Contact Form section - Code taken from Love Running project -->
       <section id="signup">
-        <form id="contact-form" method="post" action="https://formdump.codeinstitute.net">
+        <form id="contact-form" method="post" action="https://script.google.com/macros/s/AKfycbxLnvtjzNLyL1cjsr4aeexbQE09p8o7E0V9d5mEPBRmcwGMeQ9ylp9ZlH-St4pJFsIwDA/exec">
           <h2>RSVP</h2>
           <label for="first_name">First Name</label>
           <br>
@@ -59,23 +59,35 @@
           <br>
           <div class="radio-buttons">
             <div>
-              <label for="yes">Yes</label>
-              <input type="radio" name="rsvp-response" id="yes"
+              <label for="rsvp">RSVP - Yes</label>
+              <input type="radio" name="rsvp" id="yes"
                      value="yes" required>
             </div>
             <div>
-              <label for="no">No</label>
-              <input type="radio" name="rsvp-response" id="no"
+              <label for="rsvp">RSVP - No</label>
+              <input type="radio" name="rsvp" id="no"
+                     value="no" required>
+            </div>
+          </div>
+          <div class="radio-buttons">
+            <div>
+              <label for="day_2">Day 2 - Yes</label>
+              <input type="radio" name="day_2" id="yes"
+                     value="yes" required>
+            </div>
+            <div>
+              <label for="day_2">Day 2 - No</label>
+              <input type="radio" name="day_2" id="no"
                      value="no" required>
             </div>
           </div>
 
-          <label for="additional-comments"></label>
-          <textarea name="additional-comments" id="additional-comments" class="text-input"
-                    cols="30" rows="10" placeholder="Ask your questions here!">
+          <label for="comments"></label>
+          <textarea name="comments" id="additional-comments" class="text-input"
+                    cols="30" rows="10" placeholder="Let us know any dietary requirments here! (No shame you only eat nuggets and chips)">
           </textarea>
 
-          <button type="submit" class="rsvp-button">Ask Away!</button>
+          <button type="submit" class="rsvp-button">RSVP</button>
         </form>
         </section>
     </main>
